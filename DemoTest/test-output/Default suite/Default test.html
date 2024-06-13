@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 08 18:37:38 IST 2024</td>
+<td>Started on:</td><td>Mon Jun 10 21:05:06 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>31 seconds (31488 ms)</td>
+<tr><td>Total time:</td><td>29 seconds (29395 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,7 +75,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='scripts.Script4Bookposition.bookposionDropdown()'><b>bookposionDropdown</b><br>Test class: scripts.Script4Bookposition</td>
+<td title='scripts.Script4Bookposition.bookposionDropdown()'><b>bookposionDropdown</b><br>Test class: scripts.Script4Bookposition<br/>
+<a href="#Output-2097435292" onClick='toggleBox("Output-2097435292", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2097435292" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2097435292">
+user method page<br/>
+</div>
+</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Name: Z to A
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
@@ -83,7 +90,7 @@ System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.ver
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:289)
 	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:194)
-	at genericlib.Methods.selectDropDownByVisibleText(Methods.java:43)
+	at genericlib.Methods.selectDropDownByVisibleText(Methods.java:49)
 	at scripts.Script4Bookposition.bookposionDropdown(Script4Bookposition.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -113,15 +120,15 @@ Driver info: driver.version: unknown
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1942612200", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1942612200'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Name: Z to A
+</pre></div><a href='#' onClick='toggleBox("stack-trace2097435292", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2097435292'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Name: Z to A
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:289)
 	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:194)
-	at genericlib.Methods.selectDropDownByVisibleText(Methods.java:43)
+	at genericlib.Methods.selectDropDownByVisibleText(Methods.java:49)
 	at scripts.Script4Bookposition.bookposionDropdown(Script4Bookposition.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -152,7 +159,7 @@ Driver info: driver.version: unknown
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>15</td>
+<td>13</td>
 <td>scripts.Script4Bookposition@4135c3b</td></tr>
 </table><p>
 </body>

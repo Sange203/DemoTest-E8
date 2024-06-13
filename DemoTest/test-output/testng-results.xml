@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[user method page]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-06-08T18:37:38 IST" name="Default suite" finished-at="2024-06-08T18:38:10 IST" duration-ms="31488">
+  <suite started-at="2024-06-10T21:05:06 IST" name="Default suite" finished-at="2024-06-10T21:05:35 IST" duration-ms="29395">
     <groups>
     </groups>
-    <test started-at="2024-06-08T18:37:38 IST" name="Default test" finished-at="2024-06-08T18:38:10 IST" duration-ms="31488">
+    <test started-at="2024-06-10T21:05:06 IST" name="Default test" finished-at="2024-06-10T21:05:35 IST" duration-ms="29395">
       <class name="scripts.Script4Bookposition">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-08T18:37:37 IST" name="beforeSuite" finished-at="2024-06-08T18:37:38 IST" duration-ms="909" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-10T21:05:05 IST" name="beforeSuite" finished-at="2024-06-10T21:05:06 IST" duration-ms="822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-08T18:37:38 IST" name="beforeClass" finished-at="2024-06-08T18:37:51 IST" duration-ms="12796" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-10T21:05:06 IST" name="beforeClass" finished-at="2024-06-10T21:05:18 IST" duration-ms="12664" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,11 +25,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-08T18:37:51 IST" name="beforeMethod" finished-at="2024-06-08T18:37:53 IST" duration-ms="2296" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-10T21:05:18 IST" name="beforeMethod" finished-at="2024-06-10T21:05:21 IST" duration-ms="2156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="bookposionDropdown()[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-08T18:37:53 IST" name="bookposionDropdown" finished-at="2024-06-08T18:38:09 IST" duration-ms="15295" status="FAIL">
+        <test-method signature="bookposionDropdown()[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-10T21:05:21 IST" name="bookposionDropdown" finished-at="2024-06-10T21:05:34 IST" duration-ms="13264" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate option with value: Name: Z to A
@@ -43,7 +46,7 @@ System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.v
 Driver info: driver.version: unknown
 at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:289)
 at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:194)
-at genericlib.Methods.selectDropDownByVisibleText(Methods.java:43)
+at genericlib.Methods.selectDropDownByVisibleText(Methods.java:49)
 at scripts.Script4Bookposition.bookposionDropdown(Script4Bookposition.java:19)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -77,17 +80,20 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[user method page]]>
+            </line>
           </reporter-output>
         </test-method> <!-- bookposionDropdown -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-08T18:38:09 IST" name="afterMethod" finished-at="2024-06-08T18:38:10 IST" duration-ms="1023" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-10T21:05:34 IST" name="afterMethod" finished-at="2024-06-10T21:05:35 IST" duration-ms="1233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-08T18:38:10 IST" name="afterClass" finished-at="2024-06-08T18:38:10 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-10T21:05:35 IST" name="afterClass" finished-at="2024-06-10T21:05:35 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-08T18:38:10 IST" name="afterSuite" finished-at="2024-06-08T18:38:11 IST" duration-ms="574" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:scripts.Script4Bookposition@4135c3b]" started-at="2024-06-10T21:05:35 IST" name="afterSuite" finished-at="2024-06-10T21:05:36 IST" duration-ms="631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

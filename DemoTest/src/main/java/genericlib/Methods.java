@@ -38,9 +38,15 @@ public class Methods extends BaseClass{
 		s.selectByValue(value);
 	}
 	
-	public void selectDropDownByVisibleText(WebElement dropdown,String visibleText) {
-		Select s = new Select(dropdown);
-		s.selectByValue(visibleText);
+//	public void selectDropDownByVisibleText(WebElement dropdown,String visibleText) {
+//		Select s = new Select(dropdown);
+//		s.selectByValue(visibleText);
+//	}
+	public void selectDropDownByVisibleText(WebElement dropdown,String visibleText)
+	{
+		
+		Select s= new Select(dropdown);
+		s.selectByVisibleText(visibleText);
 	}
 	
 	public void acceptAlert(WebDriver driver) {

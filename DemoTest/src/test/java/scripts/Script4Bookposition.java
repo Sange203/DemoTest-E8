@@ -13,10 +13,11 @@ public class Script4Bookposition extends BaseClass{
 	public void bookposionDropdown() throws Throwable {
 		hp=new HomePagePomClass(driver);
 		hp.getBookButton().click();
-		Thread.sleep(4000);
+		Thread.sleep(2000);
 		bp=new BookPagePom(driver);
 		ms=new Methods();
 	    ms.selectDropDownByVisibleText(bp.getProductDropdown(), "Name: Z to A");
+	    Thread.sleep(2000);
 	}
 
 }
