@@ -7,7 +7,7 @@ import genericlib.Methods;
 import pom.BookPagePom;
 import pom.HomePagePomClass;
 
-public class Script4Bookposition extends BaseClass{
+public class Script4Bookposition_Test extends BaseClass{
 	
 	@Test
 	public void bookposionDropdown() throws Throwable {

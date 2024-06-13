@@ -7,7 +7,7 @@ import com.aventstack.extentreports.Status;
 import genericlib.BaseClass;
 import pom.HomePagePomClass;
 
-public class Script1book extends BaseClass {
+public class Script1book_Test extends BaseClass {
 
 	@Test
 	public  void script1() throws Throwable  {

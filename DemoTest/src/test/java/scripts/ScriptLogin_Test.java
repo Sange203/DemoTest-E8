@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import genericlib.BaseClass;
 import pom.LoginPagePom;
 
-public class ScriptLogin extends BaseClass{
+public class ScriptLogin_Test extends BaseClass{
 
 	@Test
 	public void login() {

@@ -20,7 +20,7 @@ import genericlib.UtilityMethod;
 import pom.HomePagePomClass;
 import pom.RegisterPomClass;
 
-public class ScriptRegister  {
+public class ScriptRegister_Test  {
 	public static WebDriver driver;
 	public static ExtentReports reports;
 	public static ExtentTest test;

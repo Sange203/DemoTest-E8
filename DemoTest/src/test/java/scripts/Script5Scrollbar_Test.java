@@ -3,7 +3,7 @@ package scripts;
 import genericlib.BaseClass;
 import genericlib.Methods;
 
-public class Script5Scrollbar extends BaseClass {
+public class Script5Scrollbar_Test extends BaseClass {
 
 	public void ScrollDown() throws Throwable {
 
